@@ -1,0 +1,43 @@
+.title-div {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+#play-div,#result-div {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.score-div {
+    display: grid;
+    grid-template-columns: 1fr, 2fr, 2fr, 1fr;
+    display: 20px 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+#player-score-card {
+    grid-column: 1/2;
+}
+
+#computer-score-card {
+    grid-column: 2/3;
+}
+
+.score-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    margin: 5px 20px;
+}

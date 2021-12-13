@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title-div">
+        ROCK PAPER SCISSORS<br>
+    </div>
+    <div class="title-div">
+        first to five wins
+    </div>
+    <div class="score-div">
+        <div class="score-card" id="player-score-card">
+            <div class="flex">
+                YOUR SCORE
+            </div>
+            <div class="flex" id="player-score">
+                0
+            </div>
+        </div>
+        <div class="score-card" id="computer-score-card">
+            <div class="flex">
+                COMPUTER'S SCORE
+            </div>
+            <div class="flex" id="computer-score">
+                0
+            </div>
+        </div>
+    </div>
+    <div id="play-div">
+        <button onclick="game('rock')" class="button" id="rock">rock</button>
+        <button onclick="game('paper')" class="button" id="paper">paper</button>
+        <button onclick="game('scissors')" class="button" id="scissors">scissors</button>
+    </div>
+    <div class="invisible" id="result-div">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
